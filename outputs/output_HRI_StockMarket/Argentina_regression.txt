@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Merval_Index   R-squared:                       0.460
+Model:                            OLS   Adj. R-squared:                  0.432
+Method:                 Least Squares   F-statistic:                     16.21
+Date:                Thu, 06 Jun 2024   Prob (F-statistic):           0.000722
+Time:                        00:05:36   Log-Likelihood:                -221.09
+No. Observations:                  21   AIC:                             446.2
+Df Residuals:                      19   BIC:                             448.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const               4.636e+05   1.13e+05      4.105      0.001    2.27e+05       7e+05
+Human_Rights_Index -5.026e+05   1.25e+05     -4.026      0.001   -7.64e+05   -2.41e+05
+==============================================================================
+Omnibus:                        9.857   Durbin-Watson:                   0.429
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):                7.376
+Skew:                           1.303   Prob(JB):                       0.0250
+Kurtosis:                       4.280   Cond. No.                         109.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

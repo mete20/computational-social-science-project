@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         State_Violence   R-squared:                       0.279
+Model:                            OLS   Adj. R-squared:                 -0.442
+Method:                 Least Squares   F-statistic:                    0.3866
+Date:                Thu, 06 Jun 2024   Prob (F-statistic):              0.646
+Time:                        00:06:31   Log-Likelihood:                -8.8460
+No. Observations:                   3   AIC:                             21.69
+Df Residuals:                       1   BIC:                             19.89
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const               -258.5405    540.217     -0.479      0.716   -7122.645    6605.564
+Human_Rights_Index   378.3784    608.558      0.622      0.646   -7354.089    8110.846
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.023
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.307
+Skew:                          -0.225   Prob(JB):                        0.858
+Kurtosis:                       1.500   Cond. No.                         236.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

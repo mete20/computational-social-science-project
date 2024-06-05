@@ -1,0 +1,26 @@
+Turkey Regression Analysis
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         State_Violence   R-squared:                       0.463
+Model:                            OLS   Adj. R-squared:                  0.284
+Method:                 Least Squares   F-statistic:                     2.587
+Date:                Thu, 06 Jun 2024   Prob (F-statistic):              0.206
+Time:                        00:02:23   Log-Likelihood:                -35.223
+No. Observations:                   5   AIC:                             74.45
+Df Residuals:                       3   BIC:                             73.66
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       -610.0311   1070.207     -0.570      0.609   -4015.907    2795.845
+FDI         1250.1508    777.309      1.608      0.206   -1223.594    3723.896
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.444
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.134
+Skew:                           0.263   Prob(JB):                        0.935
+Kurtosis:                       2.396   Cond. No.                         14.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

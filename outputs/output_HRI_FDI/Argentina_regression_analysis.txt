@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FDI   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     1.897
+Date:                Thu, 06 Jun 2024   Prob (F-statistic):              0.176
+Time:                        00:04:41   Log-Likelihood:                -67.707
+No. Observations:                  40   AIC:                             139.4
+Df Residuals:                      38   BIC:                             142.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 -1.7387      2.636     -0.660      0.513      -7.074       3.597
+Human_Rights_Index     4.0148      2.915      1.377      0.176      -1.886       9.915
+==============================================================================
+Omnibus:                       48.688   Durbin-Watson:                   1.353
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              282.234
+Skew:                           2.744   Prob(JB):                     5.17e-62
+Kurtosis:                      14.799   Cond. No.                         24.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

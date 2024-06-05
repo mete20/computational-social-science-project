@@ -1,0 +1,1 @@
+Correlation between Human_Rights_Index and Merval_Index for Argentina: -0.6785

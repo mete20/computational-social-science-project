@@ -1,0 +1,1 @@
+Correlation between Human_Rights_Index and BIST_30 for Turkey: -0.7037

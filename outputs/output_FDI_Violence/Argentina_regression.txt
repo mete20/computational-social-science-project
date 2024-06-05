@@ -1,0 +1,26 @@
+Argentina Regression Analysis
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         State_Violence   R-squared:                       0.980
+Model:                            OLS   Adj. R-squared:                  0.960
+Method:                 Least Squares   F-statistic:                     48.59
+Date:                Thu, 06 Jun 2024   Prob (F-statistic):             0.0907
+Time:                        00:02:23   Log-Likelihood:                -3.4806
+No. Observations:                   3   AIC:                             10.96
+Df Residuals:                       1   BIC:                             9.158
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         55.7255      3.195     17.444      0.036      15.135      96.316
+FDI           13.0071      1.866      6.971      0.091     -10.703      36.717
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.819
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.374
+Skew:                          -0.430   Prob(JB):                        0.830
+Kurtosis:                       1.500   Cond. No.                         9.39
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                BIST_30   R-squared:                       0.495
+Model:                            OLS   Adj. R-squared:                  0.469
+Method:                 Least Squares   F-statistic:                     18.64
+Date:                Thu, 06 Jun 2024   Prob (F-statistic):           0.000371
+Time:                        00:05:36   Log-Likelihood:                -243.18
+No. Observations:                  21   AIC:                             490.4
+Df Residuals:                      19   BIC:                             492.5
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const               1.716e+05   2.52e+04      6.796      0.000    1.19e+05    2.24e+05
+Human_Rights_Index -1.831e+05   4.24e+04     -4.317      0.000   -2.72e+05   -9.43e+04
+==============================================================================
+Omnibus:                        3.450   Durbin-Watson:                   0.530
+Prob(Omnibus):                  0.178   Jarque-Bera (JB):                2.880
+Skew:                          -0.844   Prob(JB):                        0.237
+Kurtosis:                       2.337   Cond. No.                         9.57
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
